@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=yQsxWSSQ#6NWAIiBEYvAbgXjDyvnxKO_R1xHwYghsVGy0tp2bCjw' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '234702389383' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
@@ -27,7 +27,7 @@ AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 READ_CMD_ONLY:  process.env.READ_CMD_ONLY  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private' ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
